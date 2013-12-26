@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
     <link href="_/css/bootstrap.css" rel="stylesheet" media="screen">
-    <link href="_/css/mystyles.css" rel="stylesheet" media="screen">
+    <link href="_/css/style.css" rel="stylesheet" media="screen">
 
     <!-- load favicon -->
     <link rel="shortcut icon" href="images/favicon.png">
@@ -84,7 +84,12 @@
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
                           <ul class="dropdown-menu search-bar-top">
                             <li>
-                              <input type="text" class="form-control" placeholder="Search">
+                              <form action="search" method="get" class="input-group header-searchform">
+                                <input type="search" name="search" placeholder="Enter keyword or phrase" autocomplete="off" class="form-control search-bar-top" id="search_text">
+                                <!-- <span class="input-group-btn">
+                                  <button type="submit" class="btn btn-primary" value="Search"><i class="fa fa-search"></i></button>
+                                </span> -->
+                              </form>
                             </li>
                           </ul>
                         </li>

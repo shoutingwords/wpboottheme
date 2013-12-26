@@ -192,9 +192,10 @@
                   </div><!-- /item -->
 
                 </div><!-- /carousel-inner -->
-
-                <a class="left" href="#review-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                <a class="right" href="#review-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                <div class="carousal-ctrl pull-right">
+                  <a class="left" href="#review-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                  <a class="right" href="#review-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
 
               </div><!-- /review-carousel -->
 

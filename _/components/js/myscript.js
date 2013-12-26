@@ -84,4 +84,19 @@ $(document).ready(function(){
     	window.prettyPrint && prettyPrint()   
   	})
 
+  	// Twitter Typhead and Google search
+	  	var GoogleCseAutoComplete = function (query, process) {
+	    $.ajax({
+	        url: 'https://clients1.google.com/complete/search?q=' + query + '&hl=en&client=partner&source=gcsc&partnerid={partner-pub-3035865041709625:2aq5fi-moc3}=cse&nocache=' + Math.random().toString(),
+	        dataType: 'jsonp',
+	        success: function (data) {
+	            process($.map(data[1], function (item) { return item[0]; }));
+	        }
+	    });
+	};
+
+	$(function () {
+	   $('.search-bar-top').typeahead({ source: GoogleCseAutoComplete });
+	});
+
 }); //jQuery is loaded

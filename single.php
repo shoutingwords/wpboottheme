@@ -157,7 +157,7 @@
                           <ul class="authorsocial list-inline pull-right">
                             <li><a href="https://twitter.com/jitendra_kr" data-toggle="tooltip" data-placement="top" title="Twitter" class="author-twitter" target="_blank"><span class="fa fa-twitter"></span></a></li>
                             <li><a href="https://facebook.com/jitendra.jk" data-toggle="tooltip" data-placement="top" title="Facebook" class="author-facebook" target="_blank"><span class="fa fa-facebook"></span></a></li>
-                            <li><a href="https://plus.google.com/107557637931452582559" data-toggle="tooltip" data-placement="top" title="Google Plus" class="author-gplus" target="_blank"><span class="fa fa-google-plus"></span></a></li>
+                            <li><a href="https://google.com/+JitendraKumarBLR" data-toggle="tooltip" data-placement="top" title="Google Plus" class="author-gplus" target="_blank"><span class="fa fa-google-plus"></span></a></li>
                             <li><a href="http://in.linkedin.com/in/jkumar01/" data-toggle="tooltip" data-placement="top" title="LinkedIn" class="author-linkedin" target="_blank"><span class="fa fa-linkedin"></span></a></li>
                             <li><a href="http://www.youtube.com" data-toggle="tooltip" data-placement="top" title="YouTube" class="author-youtube" target="_blank"><span class="fa fa-youtube"></span></a></li>
                             <li><a href="skype:jitendrakumar253?chat" data-toggle="tooltip" data-placement="top" title="Skype" class="author-skype" target="_blank"><span class="fa fa-skype"></span></a></li>
