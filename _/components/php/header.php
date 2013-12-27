@@ -43,7 +43,7 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse navbar-ex1-collapse">
                       <ul class="nav navbar-nav">
-                        <li><a href="index.php"><span class="glyphicon glyphicon-home"></span></a></li>
+                        <!-- <li><a href="index.php"><span class="glyphicon glyphicon-home"></span></a></li> -->
                         <li><a href="coupon.php" title="View Coupons">Coupons</a></li>
                         <li><a href="portfolio.php" title="View Portfolio">Portfolio</a></li>
                         <li><a href="review.php" title="View Reviews">Reviews</a></li>
@@ -51,7 +51,7 @@
                         <li><a href="404.php" title="View 404 Template">404</a></li>
 
                         <li class="dropdown dropdown-large">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bars"></i> <b class="caret"></b></a>
                           
                           <ul class="dropdown-menu dropdown-menu-large row">
                             <li class="col-sm-3">

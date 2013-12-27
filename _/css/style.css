@@ -8,7 +8,7 @@ Version: 1.0
 Tags: white, light, one-column, two-columns, full-width, right-sidebar, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready, bootstrap, responsive, mobile-first, coupons, review, portfolio
 */
 body {
-  padding-top: 40px;
+  padding-top: 60px;
   color: #000000;
   direction: ltr;
   font-family: 'Open Sans', sans-serif;
@@ -18,6 +18,9 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   background: #fff;
+}
+.navbar-right {
+  margin-right: 20px!important;
 }
 .dropdown-large {
   position: static !important;
