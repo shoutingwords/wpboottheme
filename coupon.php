@@ -213,6 +213,12 @@
 
                 <div class="row coupons-loop">
 
+                <?php
+
+                    $postcount = 1;
+
+                    while($postcount<=10) { ?>
+
                   <div class="col col-lg-12 col-md-12 col-sm-12 coupon-post">
                     <div class="row">
 
@@ -282,6 +288,12 @@
                     </div><!-- /row  -->
 
                   </div><!-- /col coupon-post -->
+
+                  <?php
+
+                    $postcount++;
+
+                    } ?>
 
                 </div><!-- /row coupons-loop -->
 
