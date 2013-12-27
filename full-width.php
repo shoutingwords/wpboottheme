@@ -26,11 +26,3 @@
       </div><!-- content-area -->
 
       <?php include "_/components/php/footer.php"; ?>
-
-    </div><!-- wrapper -->
-
-    <script src="_/js/bootstrap.js"></script>
-    <script src="_/js/myscript.js"></script>
-
-  </body>
-</html>

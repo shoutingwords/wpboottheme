@@ -90,3 +90,11 @@
 
         </footer><!-- footer -->
       </div><!-- footer-area -->
+
+    </div><!-- wrapper -->
+
+    <script src="_/js/bootstrap.js"></script>
+    <script src="_/js/custom-script.js"></script>
+
+  </body>
+</html>
