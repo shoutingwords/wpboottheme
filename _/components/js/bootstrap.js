@@ -18,4 +18,3 @@
 // @prepros-prepend "jquery.zclip.js"
 // @prepros-prepend "jquery.bxslider.js"
 // @prepros-prepend "prettify.js"
-// @prepros-prepend "typeahead.js"
