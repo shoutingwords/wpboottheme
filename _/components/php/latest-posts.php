@@ -15,7 +15,7 @@
                           <a class="cat-label" href="category.php"><span class="label label-success category-label">Category Name</span></a>
                         </div>
                         <div class="caption">
-                          <h3><a href="single.php">The Quick Brown Fox Jumped over the Lazy Dogs</a></h3>
+                          <h2><a href="single.php">The Quick Brown Fox Jumped over the Lazy Dogs</a></h2>
                           <p>Borem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

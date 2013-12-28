@@ -1,7 +1,7 @@
                 <aside class="widget-box" id="gplus-page">
                   <div class="row">
                     <div class="col col-lg-12">
-                      <h4 class="gplus-heading"><i class="fa fa-google-plus gplus-subscribe"></i> Follow us on Google+</h4>
+                      <!-- <h4 class="gplus-heading"><i class="fa fa-google-plus gplus-subscribe"></i> Follow us on Google+</h4> -->
                       <!-- Place this tag where you want the widget to render. -->
                       <div class="g-page" data-width="360" data-href="https://plus.google.com/104216960351010424400" data-layout="landscape" data-rel="publisher"></div>
 

@@ -9,7 +9,7 @@
                   <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
                   <li><a href="#">Category</a></li>
                   <li><a href="#">Sub Category</a></li>
-                  <li class="active">Post Name</li>
+                  <li class="active">The Quick Brown Fox Jumped over the Lazy Dogs</li>
                 </ol><!-- /breadcrumb -->
               </div><!-- /breadcrumb-container -->
 
@@ -18,11 +18,12 @@
                   <h1>The Quick Brown Fox Jumped over the Lazy Dogs</h1>
                   <div class="entry-meta clearfix">
                     <ul class="byline list-inline pull-left">
-                      <li><a href="#"><span class="fa fa-user"></span> Jitendra</a></li>
-                      <li><a href="#"><span class="fa fa-calendar"></span> November 25, 2013</a></li>
-                      <li><a href="#"><span class="fa fa-comments"></span> 15 Comments</a></li>
+                      <li><a href="#"><span class="fa fa-user fa-fw"></span> Jitendra</a></li>
+                      <li><a href="#"><span class="fa fa-calendar fa-fw"></span> November 25, 2013</a></li>
+                      <li><a href="#"><span class="fa fa-comments fa-fw"></span> 15 Comments</a></li>
                     </ul>
                     <ul class="post-nav pull-right list-inline">
+
                       <li>
                         <a href="#" class="btn btn-info" title="Previous Post"><i class="fa fa-chevron-left"></i></a>
                       </li>
@@ -43,7 +44,7 @@
                   <!-- Below alert would come dynamically using code -->
                   <div class="alert alert-info alert-dismissable guest-author-info">
                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                    <p><span class="fa fa-info-circle"></span> This is a guest post by <a href="#" class="author-name alert-link">Author Name</a>. View <a href="#" class="author-all-posts alert-link">all posts</a> by this author.</p>
+                    <p><span class="fa fa-info-circle fa-lg"></span> This is a guest post by <a href="#" class="author-name alert-link">Author Name</a>. View <a href="#" class="author-all-posts alert-link">all posts</a> by this author.</p>
                   </div>
 
                   <p class="lead">
@@ -113,7 +114,7 @@
                 <div class="tags row">
                   <div class="col col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <p class="tag-list">
-                      <span class="text-muted">Tags: </span>
+                      <span class="text-muted"><i class="fa fa-tags"></i> Tags: </span>
                       <a href="#" class="btn btn-primary btn-xs" title="Tag Description">WordPress</a>
                       <a href="#" class="btn btn-primary btn-xs" title="Tag Description">Search</a>
                       <a href="#" class="btn btn-primary btn-xs" title="Tag Description">New Feature</a>
@@ -125,7 +126,7 @@
                 <div class="row">
                   <div class="col col-lg-12 col-md-12">
                     <div class="share" id="sharethispost">
-                      <h3 class="pull-left">Share this post</h3>
+                      <h3 class="pull-left"><i class="fa fa-share-square-o"></i> Share this post</h3>
                       <ul class="shareicons list-inline pull-right">
                         <li>
                           <a data-toggle="tooltip" data-placement="top" href="http://www.twitter.com/share?url=http://wpboottheme.dev/single.php" title="Share on Twitter" target="_blank" class="sharepost-twitter"><span class="fa fa-twitter"></span></a>

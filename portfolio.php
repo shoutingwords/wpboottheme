@@ -34,7 +34,7 @@
             </div><!-- /col -->
           </div><!-- /portfolio-filters -->
 
-          <div class="row recent-project">
+          <div class="row latest-project">
 
             <div class="col-md-6">
               <img class="img-responsive" data-src="holder.js/500x200">
@@ -54,10 +54,53 @@
 
           </div><!-- /row -->
 
-          <div class="row">
+          <div class="row service-box">
+
+            <div class="col col-lg-4 col-md-4 col-sm-4">
+              <div class="service-box-heading">
+                <em>
+                  <i class="fa fa-location-arrow blue"></i>
+                </em>
+                <span>Multipurpose Template</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.</p>
+            </div><!-- /col -->
+
+            <div class="col col-lg-4 col-md-4 col-sm-4">
+              <div class="service-box-heading">
+                <em>
+                  <i class="fa fa-check red"></i>
+                </em>
+                <span>Well Documented</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.</p>
+            </div><!-- /col -->
+
+            <div class="col col-lg-4 col-md-4 col-sm-4">
+              <div class="service-box-heading">
+                <em>
+                  <i class="fa fa-compress green"></i>
+                </em>
+                <span>Responsive Design</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.</p>
+            </div><!-- /col -->
+
+          </div><!-- /row service-box -->
+
+          <div class="row project-actionbar">
+            <div class="col col-lg-9 col-md-9 actionbar-inner">
+              <span>This is an example text for project action bar</span>
+            </div><!-- /col -->
+            <div class="col col-lg-3 col-md-3 actionbar-inner">
+              <a class="btn btn-transparent pull-right" href="#" target="_blank"><i class="fa fa-rocket"></i> Preview Project</a>
+            </div>
+          </div><!-- project-actionbar -->
+
+          <div class="row recent-projects">
 
             <div class="col-lg-12">
-              <h3 class="page-header">Related Projects</h3>
+              <h3 class="page-header">Recent Projects</h3>
             </div>
 
             <div class="col-sm-3 col-xs-6">
