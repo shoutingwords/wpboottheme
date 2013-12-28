@@ -17,10 +17,24 @@
                 <header class="entry-title">
                   <h1>The Quick Brown Fox Jumped over the Lazy Dogs</h1>
                   <div class="entry-meta clearfix">
-                    <ul class="byline list-inline pull-right">
+                    <ul class="byline list-inline pull-left">
                       <li><a href="#"><span class="fa fa-user"></span> Jitendra</a></li>
                       <li><a href="#"><span class="fa fa-calendar"></span> November 25, 2013</a></li>
                       <li><a href="#"><span class="fa fa-comments"></span> 15 Comments</a></li>
+                    </ul>
+                    <ul class="post-nav pull-right list-inline">
+                      <li>
+                        <a href="#" class="btn btn-info" title="Previous Post"><i class="fa fa-chevron-left"></i></a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="btn btn-info" title="Random Post - Post Title"><i class="fa fa-random"></i></a>
+                      </li>
+
+                      <li>
+                        <a href="#" class="btn btn-info" title="Next Post"><i class="fa fa-chevron-right"></i></a>
+                      </li>
+
                     </ul>
                   </div><!-- /post-meta -->
                 </header><!-- /entry-title -->
@@ -176,7 +190,7 @@
 
                 <?php include "_/components/php/recommended-posts.php"; ?>
 
-                <footer class="entry-meta">
+                <footer class="comments-meta">
                   <p>Post Comments</p>
                 </footer>
 

@@ -12,10 +12,10 @@
                     <div class="thumbnail post-thumbnail">
                       <div class="thumb-wrapper">
                         <img src="images/post-thumbnail-01.jpg" alt="Alternate Text" class="img-responsive">
-                        <a class="cat-label" href="category.php"><span class="label label-default category-label">Category Name</span></a>
+                        <a class="cat-label" href="category.php"><span class="label label-success category-label">Category Name</span></a>
                       </div>
                       <div class="caption">
-                        <h3>The Quick Brown Fox Jumped over the Lazy Dogs</h3>
+                        <h3><a href="single.php">The Quick Brown Fox Jumped over the Lazy Dogs</a></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

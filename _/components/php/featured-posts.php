@@ -3,7 +3,7 @@
             			<section class="col col-lg-7 feature-post-big">
                   			<article class="thumbnail post-thumbnail">
                   				<img src="images/featured-image.jpg" alt="..." class="img-responsive">
-                  				<a class="cat-label" href="category.php"><span class="label label-default category-label">Category Name</span></a>
+                  				<a class="cat-label" href="category.php"><span class="label label-success category-label">Category Name</span></a>
                       			<div class="caption">
                     				  <h2>WordPress 3.7 release brings automatic updates, better search and other core enhancements</h2>
                         			<p>WordPress is a constantly evolving landscape. The reason WordPress is so popular and the de-facto tool for creating an awesome site is their constant innovation to bring more power, security and flexibility to the software. The latest is release of WordPress 3.7 code named "Basie" in honor of Count Basie, which brings many new and path breaking features to the core.</p>
