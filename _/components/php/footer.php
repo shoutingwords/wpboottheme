@@ -4,7 +4,7 @@
             
             <div class="row footer-widget-row">
 
-                <div class="col col-lg-4 footer-widget">
+                <div class="col col-lg-4 widget-col">
 
                   <aside class="footer-widget-1">
                     <div class="widget-title">
@@ -28,29 +28,80 @@
                     </div><!-- /widget-body -->
                   </aside><!-- /footer-widget-1 -->
 
+                  <aside class="footer-widget-2">
+                    <div class="widget-title">
+                      <h4 class="widget-title footer-widget-title">Contact Us</h4>
+                    </div>
+                    <div class="widget-body">
+                      <address>
+                        <p>
+                          5555 44th Street N.<br>
+                          Bootstrapville, CA 32323<br>
+                        </p>
+                        <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: (555) 984-3600</p>
+                        <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:info@shoutingwords.com">info@shoutingwords.com</a></p>
+                        <p><i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
+                      </address>
+                    </div><!-- /widget-body -->
+                  </aside><!-- /footer-widget-2 -->
+
                 </div><!-- /.col -->
 
-                <div class="col col-lg-4 footer-widget">
+                <div class="col col-lg-4 widget-col">
 
-                  <aside class="footer-widget-2">
+                  <aside class="footer-widget-3">
                     <div class="widget-title">
                       <h4 class="widget-title footer-widget-title">Twitter</h4>
                     </div><!-- /widget-title -->
                     <div class="widget-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      <dl class="dl-horizontal f-twitter">
+                        <dt>
+                          <i class="fa fa-twitter"></i>
+                        </dt>
+                        <dd>
+                          <a href="#">@shoutingwords</a>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                          <span>5 min ago</span>
+                        </dd>
+                      </dl>
+                      <dl class="dl-horizontal f-twitter">
+                        <dt>
+                          <i class="fa fa-twitter"></i>
+                        </dt>
+                        <dd>
+                          <a href="#">@shoutingwords</a>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                          <span>5 min ago</span>
+                        </dd>
+                      </dl>
+                      <dl class="dl-horizontal f-twitter">
+                        <dt>
+                          <i class="fa fa-twitter"></i>
+                        </dt>
+                        <dd>
+                          <a href="#">@shoutingwords</a>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                          <span>5 min ago</span>
+                        </dd>
+                      </dl>
+                      <dl class="dl-horizontal f-twitter">
+                        <dt>
+                          <i class="fa fa-twitter"></i>
+                        </dt>
+                        <dd>
+                          <a href="#">@shoutingwords</a>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit
+                          <span>5 min ago</span>
+                        </dd>
+                      </dl>
                     </div><!-- /widget-body -->
-                  </aside><!-- /footer-widget-2 -->
+                  </aside><!-- /footer-widget-3 -->
                   
                 </div><!-- /col -->
 
-                <div class="col col-lg-4 footer-widget">
+                <div class="col col-lg-4 widget-col">
 
-                  <aside class="footer-widget-3">
+                  <aside class="footer-widget-4">
                     <div class="widget-title">
                       <h4 class="widget-title footer-widget-title">About us</h4>
                     </div><!-- /widget-title -->
@@ -62,7 +113,7 @@
                       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div><!-- /widget-body -->
-                  </aside><!-- /footer-widget-3 -->
+                  </aside><!-- /footer-widget-4 -->
                   
                 </div><!-- /col -->
 

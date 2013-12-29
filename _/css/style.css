@@ -366,7 +366,11 @@ a:visited {
 .footer-widget-row {
   margin-top: 20px;
 }
-.footer-widget p {
+.widget-body {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.widget-body p {
   color: #7D7D7D;
 }
 .footer-widget-title {
@@ -374,6 +378,31 @@ a:visited {
   color: #7D7D7D;
   text-transform: uppercase;
   font-weight: 300;
+}
+.widget-body dl.f-twitter {
+  overflow: hidden;
+}
+.widget-body dl.f-twitter dt {
+  float: left;
+  padding-top: 2px;
+  text-align: left;
+  width: 30px;
+}
+.widget-body dl.f-twitter dt i {
+  color: #7D7D7D;
+  font-size: 20px;
+}
+.widget-body dl.f-twitter dd {
+  color: #7D7D7D;
+  margin-left: 30px;
+}
+.widget-body dl.f-twitter dd a {
+  color: #15B1F3;
+}
+.widget-body dl.f-twitter dd span {
+  color: #ADBDCE;
+  font-size: 12px;
+  margin: 0 5px;
 }
 .footer-nav {
   padding-top: 5px;

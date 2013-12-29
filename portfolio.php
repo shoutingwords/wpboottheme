@@ -25,11 +25,11 @@
             <div class="col col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
               <ul class="list-inline filter-options" id="portfolio-filter">
-                <li><a href="#all" rel="all"><label class="btn btn-default">All</label></a></li>
-                <li><a href="#applications" rel="applications"><label class="btn btn-default">Applications</label></a></li>
-                <li><a href="#websites" rel="websites"><label class="btn btn-default">Websites</label></a></li>
-                <li><a href="#themes" rel="themes"><label class="btn btn-default">Themes</label></a></li>
-                <li><a href="#plugins" rel="plugins"><label class="btn btn-default">Plugins</label></a></li>
+                <li><a href="#all" rel="all" class="btn btn-transparent">All</a></li>
+                <li><a href="#applications" rel="applications" class="btn btn-transparent">Applications</a></li>
+                <li><a href="#websites" rel="websites" class="btn btn-transparent">Websites</a></li>
+                <li><a href="#themes" rel="themes" class="btn btn-transparent">Themes</a></li>
+                <li><a href="#plugins" rel="plugins" class="btn btn-transparent">Plugins</a></li>
               </ul>
             </div><!-- /col -->
           </div><!-- /portfolio-filters -->

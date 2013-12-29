@@ -51,7 +51,7 @@
             </div>
 
             <div class="col-sm-4">
-              <adddress>
+              <address>
                 <h3 class="brand-name">ShoutingWords</h3>
                 <h4 class="brand-tagline">About Blogging &amp; Web Technologies</h4>
                 <p>
@@ -68,7 +68,7 @@
                   <li class="tooltip-social google-plus-link"><a href="http://plus.google.com/shoutingwords" data-toggle="tooltip" data-placement="top" title="Google+" class="contact-gplus"><span class="fa fa-google-plus"></span></a></li>
                   <li class="tooltip-social google-plus-link"><a href="skype:jitendrakumar253?chat" data-toggle="tooltip" data-placement="top" title="Skype" class="contact-skype"><span class="fa fa-skype"></span></a></li>
                 </ul>
-              </adddress>
+              </address>
             </div>
 
           </div><!-- /.row -->
