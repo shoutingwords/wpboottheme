@@ -134,15 +134,6 @@
                   </ul><!-- breadcrumb -->
                 </div><!-- /col -->
 
-                <div class="col col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                  <ul class="credit-logos footer-links-right footer-links list-inline">
-                    <li><a data-toggle="tooltip" data-placement="top" href="#" class="footer-credit builtwith-html" title="HTML 5" target="_blank"><span class="fa fa-html5"></span></a></li>
-                    <li><a data-toggle="tooltip" data-placement="top" href="#" class="footer-credit builtwith-css" title="CSS 3" target="_blank"><span class="fa fa-css3"></span></a></li>
-                    <li><a data-toggle="tooltip" data-placement="top" href="http://getbootstrap.com" target="_blank" title="Twitter Bootstrap 3.0" class="builtwith-boot footer-credit"><strong>B</strong></a></li>
-                    <li><a data-toggle="tooltip" data-placement="top" href="http://wordpress.org" target="_blank" title="Built with WordPress" class="builtwith-wp footer-credit"><span class="el-icon-wordpress"></span></a></li>
-                  </ul><!-- /credit-logos -->
-                </div>
-
               </nav><!-- /nav -->
             </div><!-- /container -->
             
