@@ -107,7 +107,7 @@
 			            			</div><!-- /item -->
 								</div><!-- /carousel-inner -->
 
-								<div class="carousel-navigation pull-right">
+								<div class="carousel-ctrl pull-right">
 				                  <a class="left-btn" href="#feature-post-carousel" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
 				                  <a class="right-btn" href="#feature-post-carousel" data-slide="next"><span class="fa fa-chevron-right"></span></a>
 				                </div><!-- /carousel-navigation -->

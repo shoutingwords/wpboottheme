@@ -121,28 +121,37 @@
 
           </div><!-- footer-container -->
 
-          <div class="row">
-            <nav class="col-lg-12 footer-nav navbar-inverse">
-                <div class="container">
-                  <ul class="breadcrumb footer-links-left footer-links pull-left">
+          <div class="row footer-linkrow">
+            
+            <div class="container">
+              <nav class="row footer-nav navbar-inverse">
+
+                <div class="col col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                  <ul class="breadcrumb footer-links-left footer-links">
                     <li><a href="about.php">About us</a></li>
                     <li><a href="privacy.php">Privacy Policy</a></li>
                     <li>&copy; 2013. All Rights Reserved.</li>
                   </ul><!-- breadcrumb -->
-                  <ul class="credit-logos pull-right footer-links list-inline">
+                </div><!-- /col -->
+
+                <div class="col col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                  <ul class="credit-logos footer-links-right footer-links list-inline">
                     <li><a data-toggle="tooltip" data-placement="top" href="#" class="footer-credit builtwith-html" title="HTML 5" target="_blank"><span class="fa fa-html5"></span></a></li>
                     <li><a data-toggle="tooltip" data-placement="top" href="#" class="footer-credit builtwith-css" title="CSS 3" target="_blank"><span class="fa fa-css3"></span></a></li>
                     <li><a data-toggle="tooltip" data-placement="top" href="http://getbootstrap.com" target="_blank" title="Twitter Bootstrap 3.0" class="builtwith-boot footer-credit"><strong>B</strong></a></li>
                     <li><a data-toggle="tooltip" data-placement="top" href="http://wordpress.org" target="_blank" title="Built with WordPress" class="builtwith-wp footer-credit"><span class="el-icon-wordpress"></span></a></li>
                   </ul><!-- /credit-logos -->
-                </div><!-- /container -->
-            </nav><!-- nav -->
-          </div><!-- footer row -->
+                </div>
 
-        </footer><!-- footer -->
-      </div><!-- footer-area -->
+              </nav><!-- /nav -->
+            </div><!-- /container -->
+            
+          </div><!-- /row footer-linkrow -->
 
-    </div><!-- wrapper -->
+        </footer><!-- /footer -->
+      </div><!-- /footer-area -->
+
+    </div><!-- /wrapper -->
 
     <script src="_/js/bootstrap.js"></script>
     <script src="_/js/custom-script.js"></script>

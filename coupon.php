@@ -193,8 +193,8 @@
 
                 </div><!-- /carousel-inner -->
                 <div class="carousal-ctrl pull-right">
-                  <a class="left" href="#coupon-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                  <a class="right" href="#coupon-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                  <a class="left-btn" href="#coupon-carousel" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
+                  <a class="right-btn" href="#coupon-carousel" data-slide="next"><span class="fa fa-chevron-right"></span></a>
                 </div>
 
               </div><!-- /coupon-carousel -->

@@ -125,20 +125,20 @@
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> Follow us <b class="caret"></b></a>
                           <ul class="dropdown-menu">
-                              <li><a href="#"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                              <li><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-                              <li><a href="#"><i class="fa fa-google-plus-square"></i> Google+</a></li>
-                              <li><a href="#"><i class="fa fa-rss-square"></i> RSS</a></li>
+                              <li><a href="https://www.facebook.com/shoutingwords"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+                              <li><a href="https://twitter.com/shoutingwords"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+                              <li><a href="http://google.com/shoutingwords"><i class="fa fa-google-plus-square"></i> Google+</a></li>
+                              <li><a href="#"><i class="fa fa-envelope"></i> Email Updates</a></li>
                           </ul>
                         </li>
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-info"></i> <b class="caret"></b></a>
                           <ul class="dropdown-menu">
-                              <li><a href="contact.php" title="View Contact Template">Contact us</a></li>
+                              <li><a href="aboutus.php" title="Who we are?">About us</a></li>
                               <li class="divider"></li>
-                              <li><a href="#">Another action</a></li>
-                              <li><a href="#">Something else here</a></li>
-                              <li><a href="#">Separated link</a></li>
+                              <li><a href="contact.php" title="View Contact Template">Contact us</a></li>
+                              <li><a href="#">Privacy Policy</a></li>
+                              <li><a href="#">Guest Posting Guideline</a></li>
                           </ul>
                         </li>
 
