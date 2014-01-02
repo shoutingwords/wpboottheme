@@ -217,9 +217,9 @@
 
                     $postcount = 1;
 
-                    while($postcount<=9) { ?>
+                    while($postcount<=12) { ?>
 
-                  <div class="col col-lg-4">
+                  <div class="col col-lg-4 col-md-3 col-sm-4">
                       <div class="thumbnail review-thumbnail">
                         <div class="thumb-wrapper">
                           <img src="images/post-thumbnail-01.jpg" alt="Alternate Text" class="img-responsive hidden-print">
