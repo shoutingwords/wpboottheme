@@ -74,14 +74,8 @@ body {
 }
 .dropdown-large .dropdown-menu-large li ul li a:hover,
 .dropdown-large .dropdown-menu-large li ul li a:focus {
-  background-color: #f5f5f5;
   color: #262626;
   text-decoration: none;
-}
-.dropdown-large .dropdown-menu-large .disabled a,
-.dropdown-large .dropdown-menu-large .disabled a:hover,
-.dropdown-large .dropdown-menu-large .disabled a:focus {
-  color: #999999;
 }
 .dropdown-large .dropdown-menu-large .disabled a:hover,
 .dropdown-large .dropdown-menu-large .disabled a:focus {
