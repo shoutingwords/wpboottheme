@@ -43,12 +43,17 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse navbar-ex1-collapse">
                       <ul class="nav navbar-nav">
-                        <!-- <li><a href="index.php"><span class="glyphicon glyphicon-home"></span></a></li> -->
-                        <li><a href="coupon.php" title="View Coupons">Coupons</a></li>
-                        <li><a href="portfolio.php" title="View Portfolio">Portfolio</a></li>
-                        <li><a href="review.php" title="View Reviews">Reviews</a></li>
-                        <li><a href="single.php" title="View Single Post Template">Single Post</a></li>
-                        <li><a href="404.php" title="View 404 Template">404</a></li>
+                        <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-th-list fa-fw"></i> Templates <b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="coupon.php" title="View Coupons"><i class="fa fa-gift fa-fw"></i> Coupons</a></li>
+                            <li><a href="portfolio.php" title="View Portfolio"><i class="fa fa-cogs fa-fw"></i> Portfolio</a></li>
+                            <li><a href="review.php" title="View Reviews"><i class="fa fa-thumbs-o-up fa-fw"></i> Reviews</a></li>
+                            <li><a href="single.php" title="View Single Post Template"><i class="fa fa-globe fa-fw"></i> Single Post</a></li>
+                            <li><a href="404.php" title="View 404 Template"><i class="fa fa-ban fa-fw"></i> 404</a></li>
+                          </ul>
+                        </li>
                         
                         <li class="dropdown dropdown-large">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
@@ -125,10 +130,10 @@
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> Follow us <b class="caret"></b></a>
                           <ul class="dropdown-menu">
-                              <li><a href="https://www.facebook.com/shoutingwords"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                              <li><a href="https://twitter.com/shoutingwords"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-                              <li><a href="http://google.com/shoutingwords"><i class="fa fa-google-plus-square"></i> Google+</a></li>
-                              <li><a href="#"><i class="fa fa-envelope"></i> Email Updates</a></li>
+                              <li><a href="https://www.facebook.com/shoutingwords"><i class="fa fa-facebook fa-fw"></i> Facebook</a></li>
+                              <li><a href="https://twitter.com/shoutingwords"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
+                              <li><a href="http://google.com/shoutingwords"><i class="fa fa-google-plus fa-fw"></i> Google+</a></li>
+                              <li><a href="#"><i class="fa fa-envelope fa-fw"></i> Email Updates</a></li>
                           </ul>
                         </li>
                         <li class="dropdown">
