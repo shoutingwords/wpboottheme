@@ -19,7 +19,7 @@
             		}
 				?>
 
-	              <?php include "_/components/php/sidebar-widget-socialcounter.php"; ?>
+	              <?php //  include "_/components/php/sidebar-widget-socialcounter.php"; ?>
 
 	            <?php
 	              $currentFile = $_SERVER["PHP_SELF"];
@@ -32,11 +32,11 @@
 
 	              <?php include "_/components/php/sidebar-widget-advertise.php"; ?>
 
+                <?php include "_/components/php/sidebar-widget-tabber.php"; ?>
+                
                 <?php include "_/components/php/sidebar-widget-gpluspage.php"; ?>
 
                 <?php include "_/components/php/sidebar-widget-fb.php"; ?>
-
-	              <?php include "_/components/php/sidebar-widget-tabber.php"; ?>
 
       			</div><!-- sidebar content -->
             

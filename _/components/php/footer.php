@@ -22,7 +22,7 @@
                           <a href="http://plus.google.com/shoutingwords"><i class="fa fa-lg fa-google-plus fa-2x"></i></a>
                         </li><!-- /.footer-social-gplus -->
                         <li class="footer-social-rss footer-social-icons">
-                          <a href="http://feeds.feedburner.com/shoutingwords"><i class="fa fa-lg fa-rss fa-2x"></i></a>
+                          <a href="http://shoutingwords.us2.list-manage.com/subscribe/post?u=fec9b9db2f7a651ec19076158"><i class="fa fa-lg fa-envelope fa-2x"></i></a>
                         </li><!-- /.footer-social-rss -->
                       </ul><!-- /.footer-social-icons-list -->
                     </div><!-- /widget-body -->
@@ -135,7 +135,7 @@
                 </div><!-- /col -->
 
                 <div class="col col-lg-2 col-md-2 col-sm-12 col-xs-12">
-                  <ul class="credit-logos footer-links-right footer-links list-inline">
+                  <ul class="credit-logos footer-links-right footer-links list-inline text-right">
                     <li><a data-toggle="tooltip" data-placement="top" href="#" class="footer-credit builtwith-html" title="HTML 5" target="_blank"><span class="fa fa-html5"></span></a></li>
                     <li><a data-toggle="tooltip" data-placement="top" href="#" class="footer-credit builtwith-css" title="CSS 3" target="_blank"><span class="fa fa-css3"></span></a></li>
                     <li><a data-toggle="tooltip" data-placement="top" href="http://getbootstrap.com" target="_blank" title="Twitter Bootstrap 3.0" class="builtwith-boot footer-credit"><strong>B</strong></a></li>
