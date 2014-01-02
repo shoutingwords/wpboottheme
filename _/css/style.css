@@ -745,7 +745,7 @@ h4.subscribe-heading {
   font-size: 21px;
   line-height: 25px;
 }
-.service-box .service-box-heading i {
+.service-box .service-box-heading span i {
   padding: 0;
   width: 32px;
   height: 32px;
@@ -755,15 +755,15 @@ h4.subscribe-heading {
   font-size: 18px;
   line-height: 32px;
 }
-.service-box .service-box-heading i.blue {
+.service-box .service-box-heading span i.blue {
   border: 1px solid #0DA3E2;
   color: #0DA3E2;
 }
-.service-box .service-box-heading i.red {
+.service-box .service-box-heading span i.red {
   border: 1px solid #DB3A1B;
   color: #DB3A1B;
 }
-.service-box .service-box-heading i.green {
+.service-box .service-box-heading span i.green {
   border: 1px solid #35AA47;
   color: #35AA47;
 }

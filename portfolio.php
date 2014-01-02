@@ -58,24 +58,21 @@
 
             <div class="col col-lg-4 col-md-4 col-sm-4">
               <div class="service-box-heading">
-                <i class="fa fa-location-arrow blue"></i>
-                <span>Multipurpose Template</span>
+                <span><i class="fa fa-location-arrow blue"></i> Multipurpose Template</span>
               </div>
               <p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.</p>
             </div><!-- /col -->
 
             <div class="col col-lg-4 col-md-4 col-sm-4">
               <div class="service-box-heading">
-                <i class="fa fa-check red"></i>
-                <span>Well Documented</span>
+                <span><i class="fa fa-check red"></i> Well Documented</span>
               </div>
               <p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.</p>
             </div><!-- /col -->
 
             <div class="col col-lg-4 col-md-4 col-sm-4">
               <div class="service-box-heading">
-                <i class="fa fa-compress green"></i>
-                <span>Responsive Design</span>
+                <span><i class="fa fa-compress green"></i> Responsive Design</span>
               </div>
               <p>Lorem ipsum dolor sit amet, dolore eiusmod quis tempor incididunt ut et dolore Ut veniam unde nostrudlaboris. Sed unde omnis iste natus error sit voluptatem.</p>
             </div><!-- /col -->
@@ -83,10 +80,10 @@
           </div><!-- /row service-box -->
 
           <div class="row project-actionbar">
-            <div class="col col-lg-9 col-md-8 actionbar-inner">
+            <div class="col col-lg-9 col-md-8 col-sm-8 actionbar-inner">
               <span>This is an example text for project action bar</span>
             </div><!-- /col -->
-            <div class="col col-lg-3 col-md-4 actionbar-inner">
+            <div class="col col-lg-3 col-md-4 col-sm-4 actionbar-inner">
               <a class="btn btn-transparent pull-right" href="#" target="_blank"><i class="fa fa-rocket"></i> Preview Project</a>
             </div>
           </div><!-- project-actionbar -->
