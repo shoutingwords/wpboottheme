@@ -220,7 +220,7 @@
                     while($postcount<=12) { ?>
 
                   <div class="col col-lg-4 col-md-3 col-sm-4">
-                      <div class="thumbnail review-thumbnail">
+                      <div class="thumbnail review-post-thumbnail">
                         <div class="thumb-wrapper">
                           <img src="images/post-thumbnail-01.jpg" alt="Alternate Text" class="img-responsive hidden-print">
                           <a class="cat-label" href="category.php"><span class="label label-default category-label">Review Category</span></a>
