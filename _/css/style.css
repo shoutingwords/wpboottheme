@@ -754,6 +754,7 @@ h4.subscribe-heading {
   text-align: center;
   font-size: 18px;
   line-height: 32px;
+  display: inline-block;
 }
 .service-box .service-box-heading span i.blue {
   border: 1px solid #0DA3E2;
