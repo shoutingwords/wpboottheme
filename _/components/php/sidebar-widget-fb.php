@@ -1,6 +1,6 @@
                 <aside class="widget-box" id="fb-page">
                   <div class="row">
-                    <div class="col col-lg-12 col-md-12 col-sm-12">
+                    <div class="col col-lg-12 col-md-6 col-sm-6">
                       
                       <div id="fb-container" style="width: 100%;">
 						  					<div class="fb-like-box" data-width="360" data-href="https://www.facebook.com/shoutingwords" data-show-faces="true" data-stream="false" data-header="false" data-show-border="false"></div>
