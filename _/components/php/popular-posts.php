@@ -6,7 +6,7 @@
 
                     $postcount = 1;
 
-                    while($postcount<=6) { ?>
+                    while($postcount<=12) { ?>
 
             			<div class="col col-lg-4 col-md-3 col-sm-4">
                     <div class="thumbnail post-thumbnail">
