@@ -4,14 +4,7 @@
           
             <section class="main col col-lg-8">
 
-              <div class="container breadcrumb-container">
-                <ol class="breadcrumb single-breadcrumb">
-                  <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
-                  <li><a href="#">Category</a></li>
-                  <li><a href="#">Sub Category</a></li>
-                  <li class="active">The Quick Brown Fox Jumped over the Lazy Dogs</li>
-                </ol><!-- /breadcrumb -->
-              </div><!-- /breadcrumb-container -->
+              <?php include "_/components/php/breadcrumb.php"; ?>
 
               <article>
                 <header class="entry-title">
@@ -126,7 +119,7 @@
                 <div class="row">
                   <div class="col col-lg-12 col-md-12">
                     <div class="share" id="sharethispost">
-                      <h3 class="pull-left"><i class="fa fa-share-square-o"></i> Share this post</h3>
+                      <h3 class="pull-left">Share this post</h3>
                       <ul class="shareicons list-inline pull-right">
                         <li>
                           <a data-toggle="tooltip" data-placement="top" href="http://www.twitter.com/share?url=http://wpboottheme.dev/single.php" title="Share on Twitter" target="_blank" class="sharepost-twitter"><span class="fa fa-twitter"></span></a>
