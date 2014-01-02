@@ -164,7 +164,7 @@
                     <div class="col col-lg-3 col-md-2 logo-area">
                       <a href="index.php"><img src="images/logo.png" alt="ShoutingWords Logo" class="logo hidden-xs hidden-sm"></a>
                     </div>
-                    <div class="col col-lg-9 col-md-10 visible-sm hidden-xs banner-ad">
+                    <div class="col col-lg-9 col-md-10 hidden-xs banner-ad">
                       <img src="images/header-banner.jpg" alt="728x90 Banner Ad" class="pull-right">
                     </div>
                   </section><!-- branding -->
