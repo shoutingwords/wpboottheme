@@ -59,7 +59,7 @@
                  
                 </div><!--/carousel-inner-->
                 
-                <div class="carousal-ctrl clearfix pull-right">
+                <div class="carousel-ctrl clearfix pull-right">
                   <a class="left-btn" href="#single-carousel" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
                   <a class="right-btn" href="#single-carousel" data-slide="next"><span class="fa fa-chevron-right"></span></a>
                 </div><!-- /carousel-navigation -->

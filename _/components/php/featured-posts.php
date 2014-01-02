@@ -68,7 +68,7 @@
 			                      					<img class="media-object img-responsive" src="images/tn_01.jpg" alt="...">
 			                  					</a>
 				                  				<div class="media-body">
-				                      				<h4 class="media-heading">HostGator Anniversary Sale - Get 50 Percent Discount and Cheap Domains</h4>
+				                      				<h4 class="media-heading">This is a demo title</h4>
 				                  				</div>
 			                				</li>
 							                <li class="media">
@@ -76,7 +76,7 @@
 							                      <img class="media-object img-responsive" src="images/tn_02.jpg" alt="...">
 							                  </a>
 							                  <div class="media-body">
-							                      <h4 class="media-heading">BBM for Android and iPhone is now available to download</h4>
+							                      <h4 class="media-heading">Lets test if it works</h4>
 							                  </div>
 							                </li>
 							                <li class="media">
@@ -84,7 +84,7 @@
 							                      <img class="media-object img-responsive" src="images/tn_03.jpg" alt="...">
 							                  </a>
 							                  <div class="media-body">
-							                      <h4 class="media-heading">Google shared endorsements - What is it and how to opt out?</h4>
+							                      <h4 class="media-heading">What to do if it doesn't work?</h4>
 							                  </div>
 							                </li>
 							                <li class="media">
@@ -92,7 +92,7 @@
 							                      <img class="media-object img-responsive" src="images/tn_04.jpg" alt="...">
 							                  </a>
 							                  <div class="media-body">
-							                      <h4 class="media-heading">Best Mobile Apps for Travelers</h4>
+							                      <h4 class="media-heading">It should work!</h4>
 							                  </div>
 							                </li>
 							                <li class="media">

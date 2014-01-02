@@ -192,7 +192,7 @@
                   </div><!-- /item -->
 
                 </div><!-- /carousel-inner -->
-                <div class="carousal-ctrl pull-right">
+                <div class="carousel-ctrl pull-right">
                   <a class="left-btn" href="#review-carousel" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
                   <a class="right-btn" href="#review-carousel" data-slide="next"><span class="fa fa-chevron-right"></span></a>
                 </div>

@@ -192,7 +192,7 @@
                   </div><!-- /item -->
 
                 </div><!-- /carousel-inner -->
-                <div class="carousal-ctrl pull-right">
+                <div class="carousel-ctrl pull-right">
                   <a class="left-btn" href="#coupon-carousel" data-slide="prev"><span class="fa fa-chevron-left"></span></a>
                   <a class="right-btn" href="#coupon-carousel" data-slide="next"><span class="fa fa-chevron-right"></span></a>
                 </div>
@@ -235,7 +235,7 @@
                           <a href="#" class="label label-danger dashed-border"><code class="coupon-code">ABC20SA</code> <i class="fa fa-scissors coupon-scissor"></i></a></p> 
                         </div>
                         <div class="coupon-body">
-                          <h2 class="coupon-title">Get 75% Discount on all hosting</h2>
+                          <h2 class="coupon-title"><a href="coupon-single.php">Get 75% Discount on all hosting</a></h2>
                           <p class="coupon-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, qui, error vero aliquid quis non aliquam ipsum cum eveniet odio dolores magni soluta numquam porro velit iste ipsa nostrum vitae.</p>
                         </div>
                         <div class="coupon-meta">

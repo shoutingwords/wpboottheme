@@ -2,7 +2,7 @@
                 <div class="row">
                   <div class="col col-lg-3 col-md-3 col-sm-3">
     	            	<a class="pull-left" href="#">
-    	                <img class="media-object author-image img-thumbnail img-responsive" src="images/author-tn.jpg" alt="About the Author">
+    	                <img class="media-object author-image img-circle img-responsive" src="images/author-tn.jpg" alt="About the Author">
     	              </a>
                   </div><!-- /col -->
                   <div class="col col-lg-9 col-md-9 col-sm-9">

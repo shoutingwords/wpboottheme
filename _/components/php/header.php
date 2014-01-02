@@ -47,16 +47,19 @@
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-th-list fa-fw"></i> Templates <b class="caret"></b></a>
                           <ul class="dropdown-menu">
+                            <li><a href="404.php" title="View 404 Template"><i class="fa fa-ban fa-fw"></i> 404</a></li>
+                            <li><a href="archive.php" title="View Archive Template"><i class="fa fa-archive fa-fw"></i> Archive</a></li>
+                            <li><a href="author.php" title="View Author Template"><i class="fa fa-user fa-fw"></i> Author</a></li>
                             <li><a href="coupon.php" title="View Coupons"><i class="fa fa-gift fa-fw"></i> Coupons</a></li>
                             <li><a href="portfolio.php" title="View Portfolio"><i class="fa fa-cogs fa-fw"></i> Portfolio</a></li>
                             <li><a href="review.php" title="View Reviews"><i class="fa fa-thumbs-o-up fa-fw"></i> Reviews</a></li>
+                            <li><a href="search-results.php" title="View Search Results Template"><i class="fa fa-search fa-fw"></i> Search Results</a></li>
                             <li><a href="single.php" title="View Single Post Template"><i class="fa fa-globe fa-fw"></i> Single Post</a></li>
-                            <li><a href="404.php" title="View 404 Template"><i class="fa fa-ban fa-fw"></i> 404</a></li>
                           </ul>
                         </li>
                         
                         <li class="dropdown dropdown-large">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <b class="caret"></b></a>
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-sitemap fa-fw"></i> Categories <b class="caret"></b></a>
                           
                           <ul class="dropdown-menu dropdown-menu-large row">
                             <li class="col-sm-3">
