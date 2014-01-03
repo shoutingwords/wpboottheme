@@ -19,7 +19,7 @@
             		}
 				?>
 
-	              <?php //  include "_/components/php/sidebar-widget-socialcounter.php"; ?>
+	              <?php include "_/components/php/sidebar-widget-socialcounter.php"; ?>
 
 	            <?php
 	              $currentFile = $_SERVER["PHP_SELF"];

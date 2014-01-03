@@ -1,13 +1,13 @@
 $(document).ready(function(){
 
 	// make menus drop down automatically
-	$('ul.nav li.dropdown').hover(function() {
-		$('.dropdown-menu', this).fadeIn();
+	// $('ul.nav li.dropdown').hover(function() {
+	// 	$('.dropdown-menu', this).fadeIn();
 
-	}, function() {
+	// }, function() {
 
-		$('.dropdown-menu', this).fadeOut('fast');
-	}); //hover
+	// 	$('.dropdown-menu', this).fadeOut('fast');
+	// }); //hover
 
 	// Fix the search box toggling
   	// Setup drop down menu

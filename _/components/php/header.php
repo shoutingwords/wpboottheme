@@ -135,7 +135,7 @@
                           <ul class="dropdown-menu">
                               <li><a href="https://www.facebook.com/shoutingwords"><i class="fa fa-facebook fa-fw"></i> Facebook</a></li>
                               <li><a href="https://twitter.com/shoutingwords"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
-                              <li><a href="http://google.com/shoutingwords"><i class="fa fa-google-plus fa-fw"></i> Google+</a></li>
+                              <li><a href="http://google.com/+shoutingwords"><i class="fa fa-google-plus fa-fw"></i> Google+</a></li>
                               <li><a href="#"><i class="fa fa-envelope fa-fw"></i> Email Updates</a></li>
                           </ul>
                         </li>
@@ -154,7 +154,7 @@
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
                           <ul class="dropdown-menu search-bar-top">
                             <li>
-                              <form action="search" method="get" class="input-group header-searchform">
+                              <form action="search-results.php" class="input-group header-searchform">
                                 <input type="search" name="search" placeholder="Enter keyword or phrase" autocomplete="off" class="form-control search-bar-top" id="search_text">
                                 <!-- <span class="input-group-btn">
                                   <button type="submit" class="btn btn-primary" value="Search"><i class="fa fa-search"></i></button>
