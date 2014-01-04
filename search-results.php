@@ -3,8 +3,6 @@
         	<div class="content row">	
           		<section class="main col col-lg-8">
 
-                <?php include "_/components/php/featured-posts.php"; ?>
-
                 <div class="row">
 
 			            <div class="col col-lg-12 col-md-12 col-sm-12 col-xs-12 search-results-header">
@@ -16,8 +14,6 @@
 			            </div><!-- /col -->
 
 			          </div><!-- /row -->
-
-                <?php include "_/components/php/pagination.php"; ?>
                 
           		</section><!-- main content -->
 

@@ -231,7 +231,7 @@ a:visited {
   padding-left: 0;
 }
 .label {
-  border-radius: 0;
+  border-radius: 3px;
 }
 .cat-label {
   position: absolute;
@@ -247,7 +247,7 @@ a:visited {
 }
 /* Sidebar */
 .well {
-  border-radius: 0;
+  border-radius: 3px;
 }
 .widget-box {
   margin-bottom: 15px;
@@ -298,6 +298,39 @@ h4.subscribe-heading {
   text-transform: lowercase;
   font-size: 11px;
 }
+/* Author list widget */
+.authorlist-panel {
+  border-radius: 3px;
+}
+.authorlist-panel .panel-body {
+  padding-left: 0;
+  padding-right: 0;
+  border-top: 1px solid #BCE8F1;
+}
+.authorlist-panel .panel-body .authimage-col {
+  padding-right: 0;
+}
+.authorlist-panel .panel-body .authdetails-col {
+  padding-left: 5px;
+}
+.authorlist-panel .panel-body .authdetails-col .auth-title {
+  font-weight: 700;
+  color: #444444;
+  margin-bottom: 5px;
+}
+.authorlist-panel .panel-body .authdetails-col .auth-meta {
+  margin-bottom: 5px;
+}
+.authorlist-panel .panel-body .authdetails-col .auth-meta span {
+  margin-right: 10px;
+}
+.authorlist-panel .panel-body .authdetails-col a {
+  font-size: 11px;
+}
+.authorlist-panel .panel-body:hover {
+  cursor: pointer;
+  background: #ffffff;
+}
 /*Tabs*/
 .nav-tabs {
   margin-bottom: 0;
@@ -306,12 +339,12 @@ h4.subscribe-heading {
 .nav-tabs li {
   margin-right: 3px;
   margin-bottom: 0;
-  border-radius: 0;
+  border-radius: 3px;
 }
 .nav-tabs li a {
   margin-top: 1px;
   padding: 5px 15px;
-  border-radius: 0;
+  border-radius: 3px;
   background: #f4f4f4;
   color: #7c858e;
   text-align: center;
@@ -432,7 +465,7 @@ h4.subscribe-heading {
 .footer-nav .breadcrumb {
   margin-bottom: 0;
   border-color: #080808;
-  border-radius: 0;
+  border-radius: 3px;
   background: #222222;
 }
 .footer-nav .breadcrumb li {
@@ -495,7 +528,7 @@ h4.subscribe-heading {
   margin: 0 0 -8px 0;
   padding-bottom: 5px;
   padding-left: 0;
-  border-radius: 0;
+  border-radius: 3px;
   background: none;
 }
 .single-breadcrumb li {
@@ -543,7 +576,7 @@ h4.subscribe-heading {
   margin-bottom: 15px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 0;
+  border-radius: 3px;
   background: #F8F8F8;
 }
 .tags {
@@ -792,7 +825,7 @@ h4.subscribe-heading {
 .project-actionbar .actionbar-inner a.btn-transparent {
   padding: 8px 18px;
   border: 1px solid #FFFFFF;
-  border-radius: 0;
+  border-radius: 3px;
   background: transparent;
   background-image: none;
   color: #FFFFFF;
@@ -904,7 +937,7 @@ h4.subscribe-heading {
   font-size: 14px;
 }
 .dashed-border .coupon-code {
-  border-radius: 0;
+  border-radius: 3px;
   background: none;
   color: #ffffff;
   font-size: 14px;

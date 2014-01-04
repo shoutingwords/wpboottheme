@@ -15,11 +15,27 @@
             		}
             		else
             		{
-						include "_/components/php/sidebar-widget-subscribe.php";
+						      include "_/components/php/sidebar-widget-subscribe.php";
             		}
-				?>
+				    ?>
 
-	              <?php include "_/components/php/sidebar-widget-socialcounter.php"; ?>
+              <?php 
+                  $currentFile = $_SERVER["PHP_SELF"];
+                  $parts = Explode('/', $currentFile);
+                  if ($parts[count($parts) - 1] == "index.php") {
+
+                  include "_/components/php/sidebar-widget-socialcounter.php";
+                  }
+              ?>
+
+              <?php 
+                  $currentFile = $_SERVER["PHP_SELF"];
+                  $parts = Explode('/', $currentFile);
+                  if ($parts[count($parts) - 1] == "author.php") {
+
+                  include "_/components/php/sidebar-widget-authors.php";
+                  }
+              ?>
 
 	            <?php
 	              $currentFile = $_SERVER["PHP_SELF"];
