@@ -5,7 +5,7 @@
 
                 <?php include "_/components/php/featured-posts.php"; ?>
 
-                <div class="row first-ad-row">
+                <div class="row first-ad-row hidden-xs">
                   <div class="col col-lg-12 col-md-12 col-sm-12 text-center">
                     <img data-src="holder.js/728x90" alt="Second Banner">
                   </div><!-- /col -->
@@ -15,7 +15,7 @@
 
                 <?php include "_/components/php/latest-posts.php"; ?>
 
-                <div class="row second-ad-row">
+                <div class="row second-ad-row hidden-xs">
                   <div class="col col-lg-12 col-md-12 col-sm-12 text-center">
                     <img data-src="holder.js/728x90" alt="Third Banner">
                   </div><!-- /col -->

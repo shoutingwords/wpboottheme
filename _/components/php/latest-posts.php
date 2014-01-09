@@ -8,9 +8,9 @@
 
                     while($postcount<=12) { ?>
 
-                    <div class="col col-lg-4 col-md-3 col-sm-4 col-xs-4">
+                    <div class="col col-lg-4 col-md-3 col-sm-4 col-xs-12">
                       <div class="thumbnail post-thumbnail">
-                        <div class="thumb-wrapper">
+                        <div class="thumb-wrapper hidden-xs">
                           <img src="images/post-thumbnail-01.jpg" alt="Alternate Text" class="img-responsive hidden-print">
                           <a class="cat-label" href="category.php"><span class="label label-success category-label">Category Name</span></a>
                         </div>
