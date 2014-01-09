@@ -5,7 +5,7 @@
     while($postcount<=4) { 
   ?>
   <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
-    <div class="thumbnail">
+    <div class="thumbnail recommend-thumbnail">
       <img data-src="holder.js/100%x180" alt="...">
       <div class="caption">
         <p class="recommend-title">
