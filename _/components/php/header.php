@@ -143,6 +143,7 @@
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-info"></i> <b class="caret"></b></a>
                           <ul class="dropdown-menu">
                               <li><a href="aboutus.php" title="Who we are?">About us</a></li>
+                              <li><a href="services.php" title="Our Services">Services</a></li>
                               <li class="divider"></li>
                               <li><a href="contact.php" title="View Contact Template">Contact</a></li>
                               <li><a href="#">Privacy Policy</a></li>
