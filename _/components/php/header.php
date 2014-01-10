@@ -8,7 +8,7 @@
     <link href="_/css/style.css" rel="stylesheet" media="screen">
 
     <!-- load favicon -->
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="favicon.png">
     <?php
       $currentFile = $_SERVER["PHP_SELF"];
       $parts = Explode('/', $currentFile);
@@ -144,7 +144,7 @@
                           <ul class="dropdown-menu">
                               <li><a href="aboutus.php" title="Who we are?">About us</a></li>
                               <li class="divider"></li>
-                              <li><a href="contact.php" title="View Contact Template">Contact us</a></li>
+                              <li><a href="contact.php" title="View Contact Template">Contact</a></li>
                               <li><a href="#">Privacy Policy</a></li>
                               <li><a href="#">Guest Posting Guideline</a></li>
                           </ul>
