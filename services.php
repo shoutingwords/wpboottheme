@@ -2,7 +2,7 @@
 
           <div class="content row"> 
             <section class="col col-lg-12">
-                <h2 class="page-header services-header">ShoutingWord's <span class="header-inner">Services</span></h2>
+                <h2 class="page-header services-header">Our <span class="header-inner">Services</span></h2>
                 <p class="servicesslogan">Our team is committed to give you best web experience and develop solutions for you which can compliment your business, so you can focus on your core operations without worrying about technology</p>
                 <div class="row services-row">
                   <div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12 service-col">
@@ -38,9 +38,71 @@
                 </div><!-- /services-row --> 
                 <div class="row">
                   <div class="col col-lg-12 col-md-12 col-sm-12 service-contact-col">
-                    <button class="btn btn-lg btn-danger touch-button">Get in touch</button>
-                  </div>
-                </div>
+                    <button class="btn btn-lg btn-danger touch-button" data-toggle="modal" data-target="#service-contact">Get in touch</button>
+                  </div><!-- /col -->
+                </div><!-- /row -->
+
+                <!-- Modal -->
+                <div class="modal fade" id="service-contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Get in touch for our Services</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p class="service-contacttext">
+                          Please fill up the form below and explain your requirement and let us know how we can help.
+                        </p>
+
+                        <form role="form">
+                          <div class="row">
+                            <div class="form-group col-xs-6">
+                              <label for="client-name">Name</label>
+                              <input type="text" class="form-control" id="client-name" placeholder="">
+                            </div>
+                            <div class="form-group col-xs-6">
+                              <label for="client-email">Email</label>
+                              <input type="email" class="form-control" id="client-email" placeholder="">
+                            </div>
+                          </div><!-- /row -->
+                          <div class="row">
+                            <div class="form-group col-xs-6">
+                              <label for="client-phone">Phone</label>
+                              <input type="tel" class="form-control" id="client-phone" placeholder="">
+                            </div>
+                            <div class="form-group col-xs-6">
+                              <label for="client-website">Website</label>
+                              <input type="tel" class="form-control" id="client-phone" placeholder="http://">
+                            </div>
+                          </div><!-- /row -->
+                          <div class="form-group">
+                            <label for="client-budget">Budget</label>
+                            <select class="form-control" id="client-budget">
+                              <option>$ 1000</option>
+                              <option>$ 2000</option>
+                              <option>$ 5000</option>
+                              <option>$ 10000</option>
+                              <option>$ 20000</option>
+                              <option>$ 50000</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="client-work">What would you like us to do for you?</label>
+                            <textarea class="form-control" rows="5" id="client-work"></textarea>
+                          </div>
+                          <div class="form-group pull-right">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </div>
+                        </form>
+                      </div>
+                      <div class="modal-footer">
+                        <p class="servicecontact-footermsg">Thanks for showing your interest in our services</p>
+                      </div>
+                    </div><!-- /.modal-content -->
+                  </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
             </section><!-- col section -->
           </div><!-- content -->
             

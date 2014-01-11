@@ -11,7 +11,7 @@
 
                     <div class="row">
                       <div class="col col-lg-12 col-md-12 col-sm-12 author-bio">
-                        <h3 class="about-author"><a href="#" class="author-name" data-toggle="tooltip" data-placement="top" title="View all posts">Neeraj Yadav</a></h3>
+                        <h3 class="about-author"><a href="#" class="author-name" data-toggle="tooltip" data-placement="top" title="View all posts">Jitendra K</a></h3>
                       </div><!-- /col -->
                     </div><!-- /row -->
 

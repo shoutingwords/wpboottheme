@@ -26,6 +26,12 @@
 
 	  		<?php 
 	  		}
+	  		else if ($parts[count($parts) - 1] == "page.php") { ?>
+	  			<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
+			    <li><a href="#">Page Title</a></li>
+
+	  		<?php 
+	  		}
 	  		else { ?>
 		      <li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
 			    <li><a href="#">Post Type</a></li>

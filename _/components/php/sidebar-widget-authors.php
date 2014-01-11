@@ -17,10 +17,10 @@
                     <div class="col col-lg-9 col-md-9 col-sm-9 authdetails-col">
                       <p class="auth-title">Jitendra K</p>
                       <p class="auth-meta">
-                        <span class="label label-default auth-postcount"><i class="fa fa-file-text-o"></i> 34 Posts</span>
-                        <span class="label label-default auth-commentcount"><i class="fa fa-comments fa-fw"></i> 21 Comments</span>
+                        <span class="auth-postcount"><i class="fa fa-file-text-o"></i> 34 Posts</span>
+                        <span class="auth-commentcount"><i class="fa fa-comments fa-fw"></i> 21 Comments</span>
                       </p>
-                      <a href="http://shoutingwords.com" class="author-website" target="_blank">http://soutingwords.com</a>
+                      <a href="http://shoutingwords.com" class="author-website" target="_blank">http://shoutingwords.com</a>
                     </div><!-- /col -->
                   </div><!-- /panel-body -->
 

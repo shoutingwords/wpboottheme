@@ -20,7 +20,7 @@
 
   </head>
 
-  <body class="not-found">
+  <body class="home">
     <div id="page" class="wrapper">
       <div class="header-area full-width">
         <header class="clearfix">
@@ -51,6 +51,7 @@
                             <li><a href="archive.php" title="View Archive Template"><i class="fa fa-archive fa-fw"></i> Archive</a></li>
                             <li><a href="author.php" title="View Author Template"><i class="fa fa-user fa-fw"></i> Author</a></li>
                             <li><a href="coupon.php" title="View Coupons"><i class="fa fa-gift fa-fw"></i> Coupons</a></li>
+                            <li><a href="page.php" title="View Page"><i class="fa fa-edit fa-fw"></i> Page</a></li>
                             <li><a href="portfolio.php" title="View Portfolio"><i class="fa fa-cogs fa-fw"></i> Portfolio</a></li>
                             <li><a href="review.php" title="View Reviews"><i class="fa fa-thumbs-o-up fa-fw"></i> Reviews</a></li>
                             <li><a href="search-results.php" title="View Search Results Template"><i class="fa fa-search fa-fw"></i> Search Results</a></li>
