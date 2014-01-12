@@ -54,6 +54,8 @@
 
                 <?php include "_/components/php/sidebar-widget-fb.php"; ?>
 
+                <?php include "_/components/php/sidebar-widget-adsense.php"; ?>
+
       			</div><!-- sidebar content -->
             
           </section><!-- sidebar -->

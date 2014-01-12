@@ -1,4 +1,4 @@
-  				    <aside class="well well-sm widget-box stickywidget clearfix" id="subscribe">
+  				    <aside class="well well-sm widget-box hidden-sm hidden-xs clearfix" id="subscribe">
                 <div class="row">
                   <div class="col col-lg-12" id="mc_embed_signup">
                 		<h4 class="subscribe-heading" for="mce-email"><i class="fa fa-envelope-o email-subscribe"></i> Get Latest Updates</h4>

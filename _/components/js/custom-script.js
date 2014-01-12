@@ -1,14 +1,5 @@
 $(document).ready(function(){
 
-	// make menus drop down automatically
-	// $('ul.nav li.dropdown').hover(function() {
-	// 	$('.dropdown-menu', this).fadeIn();
-
-	// }, function() {
-
-	// 	$('.dropdown-menu', this).fadeOut('fast');
-	// }); //hover
-
 	// Fix the search box toggling
   	// Setup drop down menu
   		$('.dropdown-toggle').dropdown();
@@ -83,5 +74,17 @@ $(document).ready(function(){
 		$(function(){
 	    	window.prettyPrint && prettyPrint()  
 	  	})
+
+    // Fix the sidebar subscribe widget
+    var s = $("#subscribe");
+    var pos = s.position();                    
+    $(window).scroll(function() {
+        var windowpos = $(window).scrollTop();
+        if (windowpos >= pos.top) {
+            s.addClass("stick");
+        } else {
+            s.removeClass("stick"); 
+        }
+    });
 
 }); //jQuery is loaded

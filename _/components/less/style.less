@@ -58,9 +58,13 @@ Tags: white, light, one-column, two-columns, full-width, right-sidebar, custom-h
 }
 
 // General Styling
+@media (min-width: 768px) {
+  body {
+  padding-top: 50px;
+  }
+}
 
 body {
-    padding-top: 60px;
     color:#000000;
     font-size:13px;
     font-family:@swfontfamily;
@@ -298,6 +302,15 @@ a:visited  {
 h4.subscribe-heading {
   white-space: nowrap!important;
 }
+@media (min-width: 1200px) {
+ .stick {
+    position:fixed;
+    top:40px;
+    width: 360px;
+    z-index: 300;
+  } 
+}
+
 .email-subscribe{color: @rss;}
 
 .social-counter {
@@ -653,6 +666,54 @@ h4.subscribe-heading {
     margin-top: 4px;
   }
 }
+/* Video share buttons */
+#share-video-overlay {
+position: relative;
+right: 40px;
+top: -230px;
+list-style-type: none;
+display: block;
+opacity: 0;
+filter: alpha(opacity=0);
+-webkit-transition: opacity .4s, top .25s;
+-moz-transition: opacity .4s, top .25s;
+-o-transition: opacity .4s, top .25s;
+transition: opacity .4s, top .25s;
+z-index: 500;
+}
+
+#share-video-overlay:hover { 
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.share-video-overlay  li { 
+margin: 5px 0px 5px 0px;
+
+}
+#facebook {
+color: #ffffff;
+background-color: #3e5ea1;
+width: 90px;
+padding: 5px;
+}
+
+.facebook a:link, .facebook a:active, .facebook a:visited { 
+color:#fff;
+text-decoration:none;
+} 
+
+#twitter { 
+background-color:#00a6d4;
+width: 90px;
+padding: 5px;
+} 
+
+.twitter a, .twitter a:link, .twitter a:active, .twitter a:visited, .twitter a:hover { 
+color:#FFF;
+text-decoration:none;
+}
+
 .guest-author-info {
     margin-bottom: 15px;
     padding-top: 10px;
@@ -1151,9 +1212,12 @@ h4.subscribe-heading {
 .servicedescription {
   text-align: justify;
 }
-.service-contact-col {
+.service-contactbtn-col {
   text-align: center;
   margin: 20px 0;
+}
+.servicecontactform {
+  padding-bottom: 10px!important;
 }
 
 /* Utilities */

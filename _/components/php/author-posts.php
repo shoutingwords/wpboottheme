@@ -9,7 +9,7 @@
             			<div class="col col-lg-4 col-md-3 col-sm-4 col-xs-4">
                     <div class="thumbnail post-thumbnail">
                       <div class="thumb-wrapper">
-                        <img src="images/post-thumbnail-01.jpg" alt="Alternate Text" class="img-responsive">
+                        <img src="http://lorempixel.com/400/200" alt="Alternate Text" class="img-responsive">
                         <a class="cat-label" href="category.php"><span class="label label-success category-label">Category Name</span></a>
                       </div>
                       <div class="caption">

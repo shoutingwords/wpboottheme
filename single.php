@@ -62,9 +62,13 @@
                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                  <p class="post-videos">
-                    <iframe width="640" height="360" src="//www.youtube.com/embed/YXVoqJEwqoQ?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
-                  </p>
+                  <div id="video-container" class="post-videos">
+                  <iframe src="//www.youtube.com/embed/YXVoqJEwqoQ" height="360" width="640" allowfullscreen="" frameborder="0"></iframe>
+                  <ul class="share-video-overlay" id="share-video-overlay">
+                    <li class="facebook" id="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyoutube.com/watch%3Fv%3DYXVoqJEwqoQ" target="_blank"><i class="fa fa-facebook fa-fw"></i> Facebook</a></li>
+                    <li class="twitter" id="twitter"><a href="http://www.twitter.com/share?&text=Check+this+video&amp;url=http%3A//www.youtube.com/watch%3Fv%3DYXVoqJEwqoQ"><i class="fa fa-twitter fa-fw"></i> Tweet</a></li>
+                  </ul>
+                </div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

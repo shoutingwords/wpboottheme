@@ -37,7 +37,7 @@
                   </div><!-- /col -->
                 </div><!-- /services-row --> 
                 <div class="row">
-                  <div class="col col-lg-12 col-md-12 col-sm-12 service-contact-col">
+                  <div class="col col-lg-12 col-md-12 col-sm-12 service-contactbtn-col">
                     <button class="btn btn-lg btn-danger touch-button" data-toggle="modal" data-target="#service-contact">Get in touch</button>
                   </div><!-- /col -->
                 </div><!-- /row -->
@@ -55,7 +55,7 @@
                           Please fill up the form below and explain your requirement and let us know how we can help.
                         </p>
 
-                        <form role="form">
+                        <form role="form" class="servicecontactform">
                           <div class="row">
                             <div class="form-group col-xs-6">
                               <label for="client-name">Name</label>

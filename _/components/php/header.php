@@ -54,12 +54,12 @@
                             <li><a href="page.php" title="View Page"><i class="fa fa-edit fa-fw"></i> Page</a></li>
                             <li><a href="portfolio.php" title="View Portfolio"><i class="fa fa-cogs fa-fw"></i> Portfolio</a></li>
                             <li><a href="review.php" title="View Reviews"><i class="fa fa-thumbs-o-up fa-fw"></i> Reviews</a></li>
-                            <li><a href="search-results.php" title="View Search Results Template"><i class="fa fa-search fa-fw"></i> Search Results</a></li>
+                            <li><a href="search.php" title="View Search Results Template"><i class="fa fa-search fa-fw"></i> Search Results</a></li>
                             <li><a href="single.php" title="View Single Post Template"><i class="fa fa-globe fa-fw"></i> Single Post</a></li>
                           </ul>
                         </li>
                         
-                        <li class="dropdown dropdown-large">
+                        <li class="dropdown dropdown-large hidden-sm hidden-xs">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-sitemap fa-fw"></i> Categories <b class="caret"></b></a>
                           
                           <ul class="dropdown-menu dropdown-menu-large row">
@@ -156,7 +156,7 @@
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i></a>
                           <ul class="dropdown-menu search-bar-top">
                             <li>
-                              <form action="search-results.php" method="get" class="input-group header-searchform">
+                              <form action="search.php" method="get" class="input-group header-searchform">
                                 <input type="search" name="search" placeholder="Enter keyword or phrase" autocomplete="off" class="form-control search-bar-top" id="search_text">
                                 <!-- <span class="input-group-btn">
                                   <button type="submit" class="btn btn-primary" value="Search"><i class="fa fa-search"></i></button>

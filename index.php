@@ -5,7 +5,7 @@
 
                 <?php include "_/components/php/featured-posts.php"; ?>
 
-                <div class="row first-ad-row hidden-xs">
+                <div class="row first-ad-row hidden-xs hidden-sm">
                   <div class="col col-lg-12 col-md-12 col-sm-12 text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- SW-PostLoop-begin -->
