@@ -1,4 +1,4 @@
-                <aside class="well well-sm widget-box stickywidget" id="review-subscribe">
+                <aside class="well well-sm widget-box" id="review-subscribe">
                   <div class="row">
                     <div class="col col-lg-12">
                       <h4 class="reviewsubscribe-heading"><i class="fa fa-star review-subscribe"></i> Subscribe to our reviews</h4>

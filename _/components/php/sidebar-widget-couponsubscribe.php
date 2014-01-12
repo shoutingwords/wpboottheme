@@ -1,4 +1,4 @@
-                <aside class="well well-sm widget-box sidebar-sticky" id="coupon-subscribe">
+                <aside class="well well-sm widget-box" id="coupon-subscribe">
                   <div class="row">
                     <div class="col col-lg-12">
                       <h4 class="subscribe-heading"><i class="fa fa-gift coupon-subscribe"></i> Get Coupons in your mailbox</h4>

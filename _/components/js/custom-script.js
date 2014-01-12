@@ -76,7 +76,7 @@ $(document).ready(function(){
 	  	})
 
     // Fix the sidebar subscribe widget
-    var s = $("#subscribe");
+    var s = $("#subscribe, #coupon-subscribe, #review-subscribe");
     var pos = s.position();                    
     $(window).scroll(function() {
         var windowpos = $(window).scrollTop();
