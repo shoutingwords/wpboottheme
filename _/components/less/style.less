@@ -1122,15 +1122,40 @@ text-decoration:none;
     margin-top: 10px;
     font-size: 18px;
 }
-.coupon-tags {
-  color: @headlinecolor;
-  i {
-    color: @headlinecolor;
+.coupon-validity {
+  h5 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-style: italic;
+    color: lighten(@headlinecolor, 15%);
   }
-  a {
-    border-radius: @border-radius;
+  .end-date {
+    margin-top: 10px;
+    color: lighten(@headlinecolor, 15%);
+    text-align: center;
+  }
+  .expired {
+    text-decoration: line-through;
   }
 }
+.coupon-cat, .coupon-tags {
+  font-size: @smallfont;
+  a {
+    font-style: italic;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  a:after {
+    content: ",";
+  }
+  a:last-child:after {
+    content: "";
+  }
+}
+
 .coupon-links {
   padding: 0;
   .coupon-bottom-links {

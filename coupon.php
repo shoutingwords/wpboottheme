@@ -238,19 +238,9 @@
                           <h2 class="coupon-title"><a href="coupon-single.php">Get 75% Discount on all hosting</a></h2>
                           <p class="coupon-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, qui, error vero aliquid quis non aliquam ipsum cum eveniet odio dolores magni soluta numquam porro velit iste ipsa nostrum vitae.</p>
                         </div>
-                        <div class="coupon-meta">
-                          <p class="coupon-cat"><i class="fa fa-folder-o"></i> <strong>Category:</strong> <span class="coupon-category">Web Hosting</span></p>
-                          <p class="coupon-tags">
-                            <i class="fa fa-tags"></i> <strong>Tags:</strong>
-                            <a href="#" class="btn btn-info btn-xs">HostGator</a>
-                            <a href="#" class="btn btn-info btn-xs">Black Friday</a>
-                            <a href="#" class="btn btn-info btn-xs">Web Hosting</a>
-                          </p>
-                        </div>
                       </div><!-- /col -->
 
                       <div class="col col-lg-3 col-md-3 col-sm-3">
-
                         <div class="success-voting well well-sm">
                           <ul class="nav nav-pills nav-stacked">
                             <li class="active">
@@ -267,14 +257,30 @@
                             </li>
                           </ul><!-- /nav-pills -->
                         </div><!-- /success-voting -->
-
                         <div class="coupon-validity well well-sm">
                           <h5>Coupon Validity</h5>
-                          <p class="end-date small"><span class="glyphicon glyphicon-calendar"></span> November 30, 2013</p>
+                          <!-- add .expired class for expired coupons -->
+                          <p class="end-date small"><i class="fa fa-calendar"></i> November 30, 2013</p>
                         </div>
-
                       </div><!-- /col -->
+
                     </div><!-- /row -->
+
+                    <div class="coupon-meta row">
+                      <div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <p class="coupon-cat pull-left">
+                          <i class="fa fa-folder-o"></i> Category: <span class="coupon-category"><a href="#">Web Hosting</a></span>
+                        </p>
+                      </div><!-- /col -->
+                      <div class="col col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <p class="coupon-tags pull-right">
+                          <i class="fa fa-tags"></i> Tags:
+                          <a href="#" class="tag-item">HostGator</a>
+                          <a href="#" class="tag-item">Black Friday</a>
+                          <a href="#" class="tag-item">Web Hosting</a>
+                        </p>
+                      </div><!-- /col -->
+                    </div><!-- /coupon-meta -->
 
                     <div class="row">
                       <div class="col col-lg-12 col-md-12 col-sm-12 coupon-links">

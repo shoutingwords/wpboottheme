@@ -76,15 +76,20 @@ $(document).ready(function(){
 	  	})
 
     // Fix the sidebar subscribe widget
-    var s = $("#subscribe, #coupon-subscribe, #review-subscribe");
-    var pos = s.position();                    
-    $(window).scroll(function() {
-        var windowpos = $(window).scrollTop();
-        if (windowpos >= pos.top) {
-            s.addClass("stick");
-        } else {
-            s.removeClass("stick"); 
-        }
+    function sticky_relocate() {
+      var window_top = $(window).scrollTop();
+      var div_top = $('.sidebar').offset().top;
+      var s = $("#subscribe, #coupon-subscribe, #review-subscribe");
+      if (window_top > div_top) {
+        s.addClass('stick');
+      } else {
+        s.removeClass('stick');
+      }
+    }
+
+    $(function() {
+      $(window).scroll(sticky_relocate);
+      sticky_relocate();
     });
 
 }); //jQuery is loaded
