@@ -256,13 +256,13 @@
                             <li class="active">
                               <a href="#">
                                 <span class="badge pull-right">42</span>
-                                <i class="glyphicon glyphicon-thumbs-up"></i>
+                                <i class="fa fa-thumbs-up fa-fw"></i>
                               </a>
                             </li>
                             <li class="active">
                               <a href="#">
                                 <span class="badge pull-right">24</span>
-                                <i class="glyphicon glyphicon-thumbs-down"></i>
+                                <i class="fa fa-thumbs-down fa-fw"></i>
                               </a>
                             </li>
                           </ul><!-- /nav-pills -->
