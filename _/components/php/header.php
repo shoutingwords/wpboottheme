@@ -3,7 +3,6 @@
   <head>
     <title>ShoutingWords BootStrap Theme -- Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
     <link href="_/css/bootstrap.css" rel="stylesheet" media="screen">
     <link href="_/css/style.css" rel="stylesheet" media="screen">
 
@@ -143,7 +142,7 @@
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-info"></i> <b class="caret"></b></a>
                           <ul class="dropdown-menu">
-                              <li><a href="aboutus.php" title="Who we are?">About us</a></li>
+                              <li><a href="about.php" title="Who we are?">About us</a></li>
                               <li><a href="services.php" title="Our Services">Services</a></li>
                               <li class="divider"></li>
                               <li><a href="contact.php" title="View Contact Template">Contact</a></li>

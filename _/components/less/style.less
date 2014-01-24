@@ -8,6 +8,9 @@ Version: 1.0
 Tags: white, light, one-column, two-columns, full-width, right-sidebar, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready, bootstrap, responsive, mobile-first, coupons, review, portfolio
 */
 
+/* Import Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+
 //Declare variables & defaults
 
 @stackoverflow: #777777;
@@ -726,7 +729,11 @@ text-decoration:none;
     margin-top: 20px;
     padding: 5px 0 5px;
 }
-
+.tag-list {
+  a:before {
+    content: "#";
+  }
+}
 #sharethispost {
     margin-top: 20px;
     padding-top: 10px;
