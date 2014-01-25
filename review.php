@@ -2,11 +2,11 @@
 
           <div class="review-header page-header row">
 
-            <div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col col-lg-8 col-md-8 col-sm-8 col-xs-6">
               <h2 class="reviews-headline"><span class="fa fa-star review-icon"></span> Reviews</h2>
             </div><!-- /col -->
 
-            <div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col col-lg-4 col-md-4 col-sm-4 col-xs-6">
               <div class="review-searchbar well well-sm">
                 <form action="post">
                   <div class="input-group">

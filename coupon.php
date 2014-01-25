@@ -2,11 +2,11 @@
 
           <div class="coupons-header page-header row">
 
-            <div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col col-lg-8 col-md-8 col-sm-8 col-xs-6">
               <h2 class="coupons-headline"><span class="fa fa-gift gift-icon"></span> Coupons</h2>
             </div><!-- /col -->
 
-            <div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col col-lg-4 col-md-4 col-sm-4 col-xs-6">
               <div class="coupon-searchbar well well-sm">
                 <form action="post">
                   <div class="input-group">
@@ -226,7 +226,7 @@
                         <div class="thumbnail">
                           <img src="images/coupon-thumbnail.jpg" alt="Grab this coupon" class="img-responsive">                          
                         </div><!-- /thumbnail -->
-                        <p class="coupon-brand text-center"><a href="http://shoutingwords.com/go/gator/" class="aff-url" target="_blank"><small><i class="fa fa-external-link"></i></small>  HostGator</a></p>
+                        <p class="coupon-brand text-center"><a href="http://shoutingwords.com/go/gator/" class="aff-url btn btn-info" target="_blank"><small><i class="fa fa-external-link"></i></small>  HostGator</a></p>
                       </div><!-- /col -->
 
                       <div class="col col-lg-6 col-md-6 col-sm-6">

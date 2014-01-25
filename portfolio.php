@@ -2,11 +2,11 @@
 
           <div class="portfolio-header page-header row">
 
-            <div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col col-lg-8 col-md-8 col-sm-8 col-xs-6">
               <h2 class="portfolio-headline"><span class="fa fa-cogs portfolio-icon"></span> Portfolio</h2>
             </div><!-- /col -->
 
-            <div class="col col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col col-lg-4 col-md-4 col-sm-4 col-xs-6">
               <div class="portfolio-searchbar well well-sm">
                 <form action="post">
                   <div class="input-group">
