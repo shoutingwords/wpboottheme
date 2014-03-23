@@ -226,7 +226,7 @@
                         <div class="thumbnail">
                           <img src="images/coupon-thumbnail.jpg" alt="Grab this coupon" class="img-responsive">                          
                         </div><!-- /thumbnail -->
-                        <p class="coupon-brand text-center"><a href="http://shoutingwords.com/go/gator/" class="aff-url btn btn-info" target="_blank"><small><i class="fa fa-external-link"></i></small>  HostGator</a></p>
+                        <p class="coupon-brand text-center"><a href="http://shoutingwords.com/go/gator/" class="aff-url btn btn-transparent" target="_blank"><small><i class="fa fa-external-link"></i></small>  HostGator</a></p>
                       </div><!-- /col -->
 
                       <div class="col col-lg-6 col-md-6 col-sm-6">
