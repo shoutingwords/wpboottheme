@@ -1,4 +1,6 @@
-            	<aside class="clearfix widget-box" id="social-media-widget">
+      	      <?php include "_/components/php/follower-count.php"; ?>
+
+              <aside class="clearfix widget-box" id="social-media-widget">
                 <div class="row">
                   <div class="col col-lg-12">
 
@@ -38,7 +40,11 @@
                         </div>
                         <div class="social-count">
                           <span class="user-count-label clearfix">
-                            256
+                            <?php
+                              require_once("_/components/php/twitter-followers.php");
+                              // change screen name to yours
+                              echo getTwitterFollowers('shoutingwords');
+                            ?>
                           </span>
                           <span class="social-label"><em>Followers</em></span>
                         </div>
@@ -49,7 +55,17 @@
                           <i class="fa fa-youtube fa-2x"></i>
                         </div>
                         <div class="social-count">
-                          <span class="user-count-label clearfix">287</span>
+                          <span class="user-count-label clearfix">
+                            <?php 
+                              $name = 'labnol'; 
+                              $url   = 'http://gdata.youtube.com/feeds/api/users/'. urlencode($name).'?alt=json'; 
+                              $json  = @file_get_contents($url); // Naughty @-operator, use proper error handling 
+                              $data  = json_decode($json, TRUE); 
+                              $count = (int) $data['entry']['yt$statistics']['subscriberCount']; 
+
+                              echo $count;
+                            ?>
+                          </span>
                           <span class="social-label"><em>Subscribers</em></span>
                         </div>
                     </div><!-- /youtube-counter -->
