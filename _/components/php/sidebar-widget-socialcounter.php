@@ -1,5 +1,3 @@
-      	      <?php include "_/components/php/follower-count.php"; ?>
-
               <aside class="clearfix widget-box" id="social-media-widget">
                 <div class="row">
                   <div class="col col-lg-12">
