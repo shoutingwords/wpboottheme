@@ -52,6 +52,10 @@
                     <h4 class="widget-title footer-widget-title">Twitter</h4>
                   </div><!-- /widget-title -->
                   <div class="widget-body">
+
+                    <?php
+                      require_once('twitter-feed.php')
+                    ?>
                     <dl class="dl-horizontal f-twitter">
                       <dt>
                         <i class="fa fa-twitter"></i>
