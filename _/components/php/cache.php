@@ -4,7 +4,8 @@
 */
 class Cache 
 {
-    const PATH_TO_CACHE = 'cache/';
+
+    const PATH_TO_CACHE = './cache/';
  
     /**
     * @desc Function read retrieves value from cache
