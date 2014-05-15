@@ -14,8 +14,6 @@ $getfield      = '?screen_name=shoutingwords&count=5';
 $requestMethod = 'GET';
 $twitter       = new TwitterAPIExchange($settings);
 
-header('Content-Type: application/json');
-
 $response = $twitter->setGetfield($getfield)
                     ->buildOauth($url, $requestMethod)
                     ->performRequest();
@@ -44,8 +42,6 @@ foreach($string as $items)
       $hour = $minute * 60;
       $day = $hour * 24;
       $week = $day * 7;
-
-// Need to work on the conditions below as mutliple conditions are true right now. there has to be just one at any give point in time.
 
       if(is_numeric($time_diff) && $time_diff > 0) {
         //if less than 3 seconds
