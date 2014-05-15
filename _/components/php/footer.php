@@ -52,50 +52,9 @@
                     <h4 class="widget-title footer-widget-title">Twitter</h4>
                   </div><!-- /widget-title -->
                   <div class="widget-body">
-
                     <?php
                       require_once('twitter-feed.php')
                     ?>
-                    <dl class="dl-horizontal f-twitter">
-                      <dt>
-                        <i class="fa fa-twitter"></i>
-                      </dt>
-                      <dd>
-                        <a href="#">@shoutingwords</a>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                        <span>5 min ago</span>
-                      </dd>
-                    </dl>
-                    <dl class="dl-horizontal f-twitter">
-                      <dt>
-                        <i class="fa fa-twitter"></i>
-                      </dt>
-                      <dd>
-                        <a href="#">@shoutingwords</a>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                        <span>5 min ago</span>
-                      </dd>
-                    </dl>
-                    <dl class="dl-horizontal f-twitter">
-                      <dt>
-                        <i class="fa fa-twitter"></i>
-                      </dt>
-                      <dd>
-                        <a href="#">@shoutingwords</a>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                        <span>5 min ago</span>
-                      </dd>
-                    </dl>
-                    <dl class="dl-horizontal f-twitter">
-                      <dt>
-                        <i class="fa fa-twitter"></i>
-                      </dt>
-                      <dd>
-                        <a href="#">@shoutingwords</a>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit
-                        <span>5 min ago</span>
-                      </dd>
-                    </dl>
                   </div><!-- /widget-body -->
                 </aside><!-- /footer-widget-3 -->
                   

@@ -10,7 +10,7 @@ $settings = array(
 );
 
 $url           = 'https://api.twitter.com/1.1/statuses/user_timeline.json';
-$getfield      = '?screen_name='.$_GET['shoutingwords'].'&count='.$_GET['5'];
+$getfield      = '?screen_name=shoutingwords&count=5';
 $requestMethod = 'GET';
 $twitter       = new TwitterAPIExchange($settings);
 
@@ -48,24 +48,34 @@ foreach($string as $items)
 // Need to work on the conditions below as mutliple conditions are true right now. there has to be just one at any give point in time.
 
       if(is_numeric($time_diff) && $time_diff > 0) {
-        //if less then 3 seconds
-        if($time_diff < 3) echo "<span>right now</span>";
-        //if less then minute
-        if($time_diff < $minute) echo "<span>" . floor($time_diff) . " seconds ago" . "</span>";
-        //if less then 2 minutes
-        if($time_diff < $minute * 2) echo "<span>" . "string"; "about 1 minute ago" . "</span>";
-        //if less then hour
-        if($time_diff < $hour) echo "<span>" . floor($time_diff / $minute) . " minutes ago" . "</span>";
-        //if less then 2 hours
-        if($time_diff < $hour * 2) echo "<span>about 1 hour ago</span>";
-        //if less then day
-        if($time_diff < $day) echo "<span>" . "string"; floor($time_diff / $hour) . " hours ago" . "</span>";
-        //if more then day, but less then 2 days
-        if($time_diff > $day && $time_diff < $day * 2) echo "<span>" . "string"; "yesterday" . "</span>";
-        //if less then year
-        if($time_diff < $day * 365) echo "<span>" . floor($time_diff / $day) . " days ago" . "</span>";
-        //else return more than a year
-        if($time_diff > $day * 365) echo "<span>over a year ago</span>";
+        //if less than 3 seconds
+        if($time_diff < 3) {
+          echo "<span>right now</span>";
+        } elseif ($time_diff < $minute) {
+          //if less than minute
+          echo "<span>" . floor($time_diff) . " seconds ago" . "</span>";
+        } elseif ($time_diff < $minute * 2) {
+          //if less than 2 minutes
+          echo "<span>" . "string"; "about 1 minute ago" . "</span>";
+        } elseif ($time_diff < $hour) {
+          // if less than an hour
+          echo "<span>" . floor($time_diff / $minute) . " minutes ago" . "</span>";
+        } elseif ($time_diff < $hour * 2) {
+          // if less than 2 hours
+          echo "<span>about 1 hour ago</span>";
+        } elseif ($time_diff < $day) {
+          // if less than a day
+          echo "<span>" . "string"; floor($time_diff / $hour) . " hours ago" . "</span>";
+        } elseif ($time_diff > $day && $time_diff < $day * 2) {
+          // if more than a day but less than 2 days
+          echo "<span>" . "string"; "yesterday" . "</span>";
+        } elseif ($time_diff < $day * 365) {
+          // if less than a year
+          echo "<span>" . floor($time_diff / $day) . " days ago" . "</span>";
+        } elseif ($time_diff > $day * 365) {
+          // if more than a year
+          echo "<span>over a year ago</span>";
+        }
       }
 
       echo "</dd>";
