@@ -174,7 +174,15 @@
                       <a href="index.php"><img src="images/logo.png" alt="ShoutingWords Logo" class="logo hidden-xs hidden-sm"></a>
                     </div>
                     <div class="col col-lg-9 col-md-10 hidden-xs banner-ad">
-                      <img src="images/header-banner.jpg" alt="728x90 Banner Ad" class="pull-right">
+                      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                      <!-- Top banner -->
+                      <ins class="adsbygoogle"
+                           style="display:inline-block;width:728px;height:90px"
+                           data-ad-client="ca-pub-3035865041709625"
+                           data-ad-slot="7507961874"></ins>
+                      <script>
+                      (adsbygoogle = window.adsbygoogle || []).push({});
+                      </script>
                     </div>
                   </section><!-- branding -->
 
