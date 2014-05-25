@@ -1,4 +1,4 @@
-              <aside class="well well-sm widget-box clearfix" id="adsense-sidebar">
+              <aside class="widget-box clearfix" id="adsense-sidebar">
                 <div class="row">
                   <div class="col col-lg-12" id="adsense-square">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

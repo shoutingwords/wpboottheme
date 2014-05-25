@@ -15,7 +15,7 @@
                       <li><a href="#"><span class="fa fa-calendar fa-fw"></span> November 25, 2013</a></li>
                       <li><a href="#"><span class="fa fa-comments fa-fw"></span> 15 Comments</a></li>
                     </ul>
-                    <ul class="post-nav pull-right list-inline">
+                    <ul class="post-nav pull-right list-inline hidden-xs">
 
                       <li>
                         <a href="#" class="btn btn-info" title="Previous Post"><i class="fa fa-chevron-left"></i></a>
@@ -196,9 +196,16 @@
 
                 <?php include "_/components/php/recommended-posts.php"; ?>
 
-                <footer class="comments-meta">
-                  <p>Post Comments</p>
-                </footer>
+                <footer class="row comments-meta">
+                  <!-- WordPress comments -->
+
+                  <!-- facebook comments -->
+                  <div class="col col-lg-12 col-md-12 hidden-xs">
+                    <div id="fb-root"></div>
+                    <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+                    <fb:comments href="http://shoutingwords.com" width="100%"></fb:comments>
+                  </div><!-- /col -->
+                </footer> <!-- /comments-meta -->
 
               </article>
               
