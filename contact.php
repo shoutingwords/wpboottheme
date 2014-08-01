@@ -58,7 +58,7 @@
                   5555 44th Street N.<br>
                   Bootstrapville, CA 32323<br>
                 </p>
-                <p><i class="fa fa-phone"></i> <a href="tel: +919742100276"><abbr title="Phone">P</abbr>: (555) 984-3600</a></p>
+                <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: <a href="tel: +919742100276">(555) 984-3600</a></p>
                 <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:info@shoutingwords.com">info@shoutingwords.com</a></p>
                 <p><i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
                 <ul class="list-unstyled list-inline list-social-icons">

@@ -3,7 +3,7 @@
           <div class="content row"> 
             <section class="col col-lg-12">
                 <h2 class="page-header services-header">Our <span class="header-inner">Services</span></h2>
-                <p class="servicesslogan">Our team is committed to give you best web experience and develop solutions for you which can compliment your business, so you can focus on your core operations without worrying about technology</p>
+                <p class="servicesslogan">We are committed to give you the best user experience. We develop solutions which compliment your business, so you can focus on your core operations without worrying about technology</p>
                 <div class="row services-row">
                   <div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12 service-col">
                     <h3 class="servicetitle">WordPress Development</h3>

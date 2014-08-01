@@ -40,14 +40,14 @@ $(document).ready(function(){
 		// Sidebar Tabbed Widget
 
     // store the currently selected tab in the hash value
-    $("ul.nav-tabs > li > a").on("shown.bs.tab", function (e) {
-        var id = $(e.target).attr("href").substr(1);
-        window.location.hash = id;
-    });
+    // $("ul.nav-tabs > li > a").on("shown.bs.tab", function (e) {
+    //     var id = $(e.target).attr("href").substr(1);
+    //     window.location.hash = id;
+    // });
 
-    // on load of the page: switch to the currently selected tab
-    var hash = window.location.hash;
-    $('#sidebar-tabs a[href="' + hash + '"]').tab('show');
+    // // on load of the page: switch to the currently selected tab
+    // var hash = window.location.hash;
+    // $('#sidebar-tabs a[href="' + hash + '"]').tab('show');
 
     // Responsive videos using FitVids
     $(".post-videos").fitVids();

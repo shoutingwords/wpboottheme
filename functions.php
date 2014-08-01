@@ -7,6 +7,7 @@ add_theme_support( 'post-formats', array(
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 604, 270, true ); //Put more thumbnail sizes. Refer to article by Mark Jacquith
 
+add_theme_support('woocommerce'); // Add WooCommerce Support
 
 /**
  * Registers two widget areas.

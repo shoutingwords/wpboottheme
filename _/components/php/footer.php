@@ -6,7 +6,7 @@
               <div class="col col-lg-4 widget-col">
                 <aside class="footer-widget-1">
                   <div class="widget-title">
-                    <h4 class="widget-title footer-widget-title">Social Media</h4>
+                    <h4 class="widget-title footer-widget-title">Connect</h4>
                   </div>
                   <div class="widget-body">
                     <ul class="footer-social-icons-list list-inline">
@@ -36,7 +36,7 @@
                         5555 44th Street N.<br>
                         Bootstrapville, CA 32323<br>
                       </p>
-                      <p><i class="fa fa-phone"></i> <a href="tel: +919742100276"><abbr title="Phone">P</abbr>: (555) 984-3600</a></p>
+                      <p><i class="fa fa-phone"></i> <abbr title="Phone">P</abbr>: <a href="tel: +919742100276">(555) 984-3600</a></p>
                       <p><i class="fa fa-envelope-o"></i> <abbr title="Email">E</abbr>: <a href="mailto:info@shoutingwords.com">info@shoutingwords.com</a></p>
                       <p><i class="fa fa-clock-o"></i> <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 5:00 PM</p>
                     </address>
@@ -87,7 +87,7 @@
             <div class="container">
               <nav class="row footer-nav navbar-inverse">
 
-                <div class="col col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                <div class="col col-lg-9 col-md-9 col-sm-12 col-xs-12">
                   <ul class="breadcrumb footer-links-left footer-links">
                     <li><a href="about.php">About us</a></li>
                     <li><a href="privacy.php">Privacy Policy</a></li>
@@ -95,12 +95,13 @@
                   </ul><!-- breadcrumb -->
                 </div><!-- /col -->
 
-                <div class="col col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <div class="col col-lg-3 col-md-3 col-sm-12 col-xs-12">
                   <ul class="credit-logos footer-links-right footer-links list-inline text-right">
                     <li><a data-toggle="tooltip" data-placement="top" href="#" class="footer-credit builtwith-html" title="HTML 5" target="_blank"><span class="fa fa-html5"></span></a></li>
                     <li><a data-toggle="tooltip" data-placement="top" href="#" class="footer-credit builtwith-css" title="CSS 3" target="_blank"><span class="fa fa-css3"></span></a></li>
                     <li><a data-toggle="tooltip" data-placement="top" href="http://getbootstrap.com" target="_blank" title="Twitter Bootstrap 3.0" class="builtwith-boot footer-credit"><strong>B</strong></a></li>
-                    <li><a data-toggle="tooltip" data-placement="top" href="http://wordpress.org" target="_blank" title="Built with WordPress" class="builtwith-wp footer-credit"><span class="fa fa-wordpress"></span></a></li>
+                    <li><a data-toggle="tooltip" data-placement="top" href="#" target="_blank" title="Built on Apple" class="builton-apple footer-credit"><span class="fa fa-apple"></span></a></li>
+                    <li><a data-toggle="tooltip" data-placement="top" href="http://wordpress.org" target="_blank" title="Powered by WordPress" class="poweredby-wp footer-credit"><span class="fa fa-wordpress"></span></a></li>
                   </ul><!-- /credit-logos -->
                 </div>
 

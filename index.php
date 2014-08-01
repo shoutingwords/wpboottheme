@@ -27,13 +27,7 @@
                   <div class="col col-lg-12 col-md-12 col-sm-12 text-center">
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- SW-PostLoop-End -->
-                    <ins class="adsbygoogle"
-                         style="display:inline-block;width:728px;height:90px"
-                         data-ad-client="ca-pub-3035865041709625"
-                         data-ad-slot="3257954273"></ins>
-                    <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+                    <a href="http://themeforest.net/?ref=agctech" title="WordPress Themes & Templates from ThemeForest"><img src="images/728x90_V1.jpg" alt="ThemeForest"></a>
                   </div><!-- /col -->
                 </div><!-- /first-ad-row -->
 
